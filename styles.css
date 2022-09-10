@@ -1,0 +1,176 @@
+html, body {
+
+ width: 100%;
+height: auto;
+margin: 0px;
+padding: 0px;
+background-color: #fff;
+overflow-x: hidden;
+}
+
+#head-tital {  font-family: 'Montserrat', sans-serif;  font-size: 4.2rem;  line-height: 1.5;  font-weight: 900; color: white;}
+
+#main-container
+{
+ padding: 2% 3%;
+
+ background-color: #A460ED;
+ height: auto;
+ overflow: auto;
+}
+
+#main-container::-webkit-scrollbar {
+    display: none;  /* Safari and Chrome */
+}
+
+
+
+a
+{
+  color: white;
+}
+
+.navbar-navbar{
+  margin-left: 100px;
+}
+
+imgr{
+  transform: rotate(10deg)
+}
+
+#service-conatiner
+{
+padding: 8% 15%;
+
+}
+
+.service-box{
+  text-align: center;
+}
+h1
+{
+  font-family: 'Montserrat', sans-serif;
+}
+#img-s
+{
+border-radius: 100px;
+}
+
+.ic
+{
+  margin-bottom: 1rem;
+}
+.ic:hover
+{
+  color: #A460ED;
+}
+.btn-grup{
+  margin-left: 10%;
+}
+#varity-id
+{
+  padding: 4% 15%;
+  background-color: #A460ED;
+  text-align: center;
+  height: 50%;
+}
+.varity-img
+{
+  height: 400px;
+}
+.varity-h1
+{
+  padding-top: 2%;
+}
+
+.review
+{
+  text-align: center;
+  padding: 6% 15%;
+}
+
+#prizing
+{
+  background-color: #A460ED;
+  padding: 6% 15%;
+}
+.prizing-padding
+{
+  padding-top: 5%;
+
+}
+
+.name
+{
+  margin-right: 11%
+}
+@media (max-width :992px)
+{
+
+  ul{
+    margin-left: 0;
+  }
+
+  .fw-bold{
+    text-align: center;
+    font-size: 2px;
+  }
+  .img-logo
+  {
+    margin-left: 0;
+  }
+  .btn-grup
+  {
+    text-align: center;
+
+  }
+  .name
+  {
+    margin-right: 0;
+  }
+}
+
+@media (max-width :400px)
+{
+
+  .ims-phone
+  {
+    width: auto;
+    position: static;
+    padding-top: 100px;
+  }
+}
+
+.Download
+{
+  text-align: center;
+  padding: 6% 15%;
+  line-height: 2;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-grup-low
+{
+  margin-top: 5%;
+
+}
+
+.btn2
+{
+  margin-left: 5%;
+}
+
+.contact
+{
+  background-color:  #A460ED;
+}
+.contact-icon
+{
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+.contact-icon i
+{
+  padding: 1%;
+}
